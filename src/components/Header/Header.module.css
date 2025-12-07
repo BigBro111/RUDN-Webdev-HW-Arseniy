@@ -1,0 +1,108 @@
+.header {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.brand {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-weight: 500;
+font-size: 21px;
+line-height: 143%;
+  color: #0b1023;
+}
+.contacts {
+  display: flex;
+  flex-direction: row;
+  gap: 13px;
+  text-align: right;
+  font-size: 14px;
+  color: #666;
+}
+
+
+brand {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+
+  gap: 69px;
+}
+
+.address {
+  display: flex;
+  flex-direction: row;
+  gap: 13px;
+  align-items: baseline;
+  margin-bottom: 4px;
+}
+
+
+.addressContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.addressLine {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+ color: #666;
+  margin: 0;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.phone {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 152%;
+  color: #666;
+  margin-bottom: 2px;
+}
+
+.workingHours {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 150%;
+ color: #666;
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+  }
+  
+  .contacts {
+    align-items: center;
+  }
+  
+  .address {
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+    text-align: center;
+  }
+  
+  .phone {
+    font-size: 18px;
+  }
+}
