@@ -1,0 +1,29 @@
+.catalogSection {
+  background: #fff;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.catalogTitle {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  color: #0b1023;
+  font-family: 'Montserrat', sans-serif;
+}
+.catalogGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+   align-items: start; 
+}
+
+@media (max-width: 992px) {
+  .catalogGrid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 600px) {
+  .catalogGrid { grid-template-columns: 1fr; }
+}

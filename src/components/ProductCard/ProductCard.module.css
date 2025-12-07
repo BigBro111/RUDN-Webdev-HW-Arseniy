@@ -1,0 +1,104 @@
+.productCard {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  overflow: hidden;
+    height: fit-content;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+  transition: transform 0.2s ease;
+  justify-content: center;
+   align-self: stretch;
+}
+.productCard:hover {
+  transform: translateY(-4px);
+}
+.productImage {
+    width: 100%;
+  height: 220px;      
+  object-fit: cover; 
+  display: block;
+}
+.productInfo {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 16px;
+}
+.productInfo h2 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #0b1023;
+}
+.productInfo p {
+  font-size: 13px;
+  color: #252525;
+  margin: 10px 0 10px 0;
+  line-height: 1.4;
+}
+
+.btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 152%; /* примерно 27px */
+  text-align: center;
+
+  background: #fed84c;
+  color: #2e363e;
+
+  width: 163px;
+  height: 68px;
+  padding: 20px 40px;
+
+  border: none;
+  border-radius: 8px;
+
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  background: #2e363e;
+  color: #fff;
+}
+
+.product-info .btn {
+  margin-top: auto;
+  align-self: flex-start;
+  width: 128px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+}
+
+.price {
+  font-size: 14px;
+  font-weight: 600;
+  color: #0b1023;
+  margin-bottom: 14px;
+}
+.counter {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: auto;
+}
+.counterBtn {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+.qty {
+  min-width: 24px;
+  text-align: center;
+}
+.total {
+  margin-left: 8px;
+  font-weight: 600;
+}
